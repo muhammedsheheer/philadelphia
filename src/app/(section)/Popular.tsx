@@ -27,14 +27,14 @@ const Popular: React.FC = () => {
               className="w-20 md:w-36 lg:w-80"
             />
           </div>
-          <h1 className="font-bebas pl-3 text-[21vw] font-[400] uppercase text-[#FF8A00] lg:pl-8">
+          <h1 className="pl-3 font-bebas text-[21vw] font-[400] uppercase text-[#FF8A00] lg:pl-8">
             Most Popular
           </h1>
         </div>
         <div className="relative grid w-full gap-6 md:grid-cols-3 lg:grid-cols-4 lg:gap-4">
           <div className="absolute inset-0 z-10 hidden items-center justify-center lg:flex">
-            <Link href={"/menu"}>
-              <Button className="font-roboto flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 text-sm font-[400] uppercase text-[#fff]">
+            <Link href={"/"}>
+              <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
                 <Circle className="w-2 fill-white" />
                 Order Now
               </Button>
@@ -50,7 +50,7 @@ const Popular: React.FC = () => {
                   alt="logo"
                   className="w-48 lg:w-56"
                 />
-                <h6 className="font-bebas text-center text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
+                <h6 className="text-center font-bebas text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
                   Meals
                 </h6>
               </div>
@@ -73,7 +73,7 @@ const Popular: React.FC = () => {
                   alt="logo"
                   className="w-48 lg:w-56"
                 />
-                <h6 className="font-bebas text-center text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
+                <h6 className="text-center font-bebas text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
                   BUcket Meals{" "}
                 </h6>
               </div>
@@ -96,7 +96,7 @@ const Popular: React.FC = () => {
                   alt="logo"
                   className="w-48 lg:w-56"
                 />
-                <h6 className="font-bebas text-center text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
+                <h6 className="text-center font-bebas text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
                   MaiN
                 </h6>
               </div>
@@ -119,7 +119,7 @@ const Popular: React.FC = () => {
                   alt="logo"
                   className="w-48 lg:w-56"
                 />
-                <h6 className="font-bebas text-center text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
+                <h6 className="text-center font-bebas text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
                   Burgers
                 </h6>
               </div>
@@ -133,8 +133,8 @@ const Popular: React.FC = () => {
             />
           </div>
           <div className="flex justify-center md:hidden">
-            <Link href={"/menu"}>
-              <Button className="font-roboto flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 text-sm font-[400] uppercase text-[#fff]">
+            <Link href={"/"}>
+              <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
                 <Circle className="w-2 fill-white" />
                 Order Now
               </Button>
@@ -150,7 +150,7 @@ const Popular: React.FC = () => {
                   alt="logo"
                   className="w-48 lg:w-56"
                 />
-                <h6 className="font-bebas text-center text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
+                <h6 className="text-center font-bebas text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
                   Meals
                 </h6>
               </div>
@@ -173,7 +173,7 @@ const Popular: React.FC = () => {
                   alt="logo"
                   className="w-48 lg:w-56"
                 />
-                <h6 className="font-bebas text-center text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
+                <h6 className="text-center font-bebas text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
                   BUcket Meals{" "}
                 </h6>
               </div>
@@ -196,7 +196,7 @@ const Popular: React.FC = () => {
                   alt="logo"
                   className="w-48 lg:w-56"
                 />
-                <h6 className="font-bebas text-center text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
+                <h6 className="text-center font-bebas text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
                   MaiN
                 </h6>
               </div>
@@ -219,7 +219,7 @@ const Popular: React.FC = () => {
                   alt="logo"
                   className="w-48 lg:w-56"
                 />
-                <h6 className="font-bebas text-center text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
+                <h6 className="text-center font-bebas text-xl font-[400] uppercase text-[#FF8A00] lg:text-3xl">
                   Burgers
                 </h6>
               </div>

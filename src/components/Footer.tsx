@@ -64,27 +64,27 @@ const Footer = ({}) => {
           </div>
           <div className="flex flex-col items-center justify-center gap-4 lg:mr-[8%] lg:gap-6">
             <Link href={"/"}>
-              <Button className="font-bebas rounded-full bg-[#DB0C10] px-5 py-4 text-center text-lg font-[400] uppercase text-[#fff] lg:text-xl">
+              <Button className="rounded-full bg-[#DB0C10] px-5 py-4 text-center font-bebas text-lg font-[400] uppercase text-[#fff] lg:text-xl">
                 Home
               </Button>
             </Link>
-            <Link href={"/about-us"}>
-              <Button className="font-bebas rounded-full bg-[#DB0C10] px-5 py-4 text-center text-lg font-[400] uppercase text-[#fff] lg:text-xl">
+            <Link href={"/"}>
+              <Button className="rounded-full bg-[#DB0C10] px-5 py-4 text-center font-bebas text-lg font-[400] uppercase text-[#fff] lg:text-xl">
                 About us
               </Button>
             </Link>
-            <Link href={"/table-booking"}>
-              <Button className="font-bebas rounded-full bg-[#DB0C10] px-5 py-4 text-center text-lg font-[400] uppercase text-[#fff] lg:text-xl">
+            <Link href={"/"}>
+              <Button className="rounded-full bg-[#DB0C10] px-5 py-4 text-center font-bebas text-lg font-[400] uppercase text-[#fff] lg:text-xl">
                 Booking
               </Button>
             </Link>
-            <Link href={"/contact"}>
-              <Button className="font-bebas rounded-full bg-[#DB0C10] px-5 py-4 text-center text-lg font-[400] uppercase text-[#fff] lg:text-xl">
+            <Link href={"/"}>
+              <Button className="rounded-full bg-[#DB0C10] px-5 py-4 text-center font-bebas text-lg font-[400] uppercase text-[#fff] lg:text-xl">
                 Contact us
               </Button>
             </Link>
-            <Link href={"/menu"}>
-              <Button className="font-bebas rounded-full bg-[#DB0C10] px-5 py-4 text-center text-lg font-[400] uppercase text-[#fff] lg:text-xl">
+            <Link href={"/"}>
+              <Button className="rounded-full bg-[#DB0C10] px-5 py-4 text-center font-bebas text-lg font-[400] uppercase text-[#fff] lg:text-xl">
                 Menu
               </Button>
             </Link>
@@ -132,11 +132,11 @@ const Footer = ({}) => {
         <div>
           <div className="border-t-[rgba(0, 0, 0, 0.25)] border-t-[1px]" />
           <div className="flex flex-col justify-center px-8 py-6 lg:flex-row lg:justify-between lg:px-28">
-            <p className="font-bebas text-center text-sm font-[400] text-[#000] lg:text-base">
+            <p className="text-center font-bebas text-sm font-[400] text-[#000] lg:text-base">
               © All Rights Reserved by PHILADELPHIA FRIED CHICKEN
             </p>
             <Link
-              className="font-bebas text-center text-sm font-[400] text-[#000] lg:text-base"
+              className="text-center font-bebas text-sm font-[400] text-[#000] lg:text-base"
               href={"/"}
               target="_blank"
             >

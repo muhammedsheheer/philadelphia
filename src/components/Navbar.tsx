@@ -34,12 +34,12 @@ const Navbar: React.FC<NavbarProps> = ({ position = "static" }) => {
 
         <div className="flex flex-row items-center gap-2">
           <div className="hidden flex-row gap-2 lg:flex">
-            <Link href={"/table-booking"}>
-              <Button className="font-bebas flex flex-row items-center justify-center gap-2 rounded-full bg-[#fff] px-6 py-6 text-center text-base font-[400] uppercase text-[#040404]">
+            <Link href={"/"}>
+              <Button className="flex flex-row items-center justify-center gap-2 rounded-full bg-[#fff] px-6 py-6 text-center font-bebas text-base font-[400] uppercase text-[#040404]">
                 <Circle className="w-2 fill-black" /> Order Now
               </Button>
             </Link>
-            <Link href={"/menu"}>
+            <Link href={"/"}>
               <Button className="rounded-full bg-[#fff] px-3 py-6">
                 <Image
                   src={"/images/home/hero/bag.svg"}

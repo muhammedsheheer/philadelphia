@@ -26,7 +26,7 @@ const United: React.FC = () => {
         />
       </div>
       <div className="absolute bottom-[20%] right-[140px] hidden flex-col gap-6 lg:flex">
-        <p className="font-roboto w-full max-w-[420px] from-neutral-400 text-sm uppercase leading-[130%] text-[#FF8A00] lg:text-base">
+        <p className="w-full max-w-[420px] from-neutral-400 font-roboto text-sm uppercase leading-[130%] text-[#FF8A00] lg:text-base">
           Welcome to Philadelphia Fried Chicken—where bold flavors, quality, and
           tradition come together! From our roots in Manchester to our newest
           branch in Blackburn, we’re bringing the same mouthwatering fried
@@ -34,8 +34,8 @@ const United: React.FC = () => {
           service that feels like home, we’re excited to serve you. Philadelphia
           Fried Chicken – Where Flavor Meets Tradition.
         </p>
-        <Link href={"/menu"}>
-          <Button className="font-roboto flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 text-sm font-[400] uppercase text-[#fff]">
+        <Link href={"/"}>
+          <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
             <Circle className="w-2 fill-white" />
             Order Now
           </Button>
@@ -49,7 +49,7 @@ const United: React.FC = () => {
           </h1>
           <div className="lg:hidden">
             <div className="flex flex-col gap-5">
-              <p className="font-roboto w-full max-w-[400px] from-neutral-400 text-sm uppercase leading-[130%] text-[#FF8A00] lg:text-base">
+              <p className="w-full max-w-[400px] from-neutral-400 font-roboto text-sm uppercase leading-[130%] text-[#FF8A00] lg:text-base">
                 Welcome to Philadelphia Fried Chicken—where bold flavors,
                 quality, and tradition come together! From our roots in
                 Manchester to our newest branch in Blackburn, we’re bringing the
@@ -58,8 +58,8 @@ const United: React.FC = () => {
                 we’re excited to serve you. Philadelphia Fried Chicken – Where
                 Flavor Meets Tradition.
               </p>
-              <Link href={"/menu"}>
-                <Button className="font-roboto flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 text-sm font-[400] uppercase text-[#fff]">
+              <Link href={"/"}>
+                <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
                   <Circle className="w-2 fill-white" />
                   Order Now
                 </Button>

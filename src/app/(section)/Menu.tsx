@@ -13,7 +13,7 @@ const Menu: React.FC = () => {
             our menu
           </h1>
           <div className="">
-            <Link href={"/menu"}>
+            <Link href={"/"}>
               <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff] lg:mt-6">
                 <Circle className="w-2 fill-white" />
                 View Menu

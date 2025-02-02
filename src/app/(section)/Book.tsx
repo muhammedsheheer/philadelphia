@@ -74,7 +74,7 @@ const Book: React.FC = () => {
             special celebration, we’ve got the perfect spot for you.
           </p>
           <div>
-            <Link href={"/table-booking"}>
+            <Link href={"#"}>
               <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
                 <Circle className="w-2 fill-white" />
                 Book Table
