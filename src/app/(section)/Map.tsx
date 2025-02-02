@@ -1,5 +1,4 @@
 import { Navigation } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -15,7 +14,7 @@ const Map: React.FC = () => {
         </div>
         <div className="flex flex-col gap-4 lg:gap-8">
           <h1 className="font-bebas text-6xl font-[400] uppercase text-[#FF8A00] lg:text-9xl">
-            Let's <br />
+            Let`s <br />
             connect.
           </h1>
           <div className="flex flex-row gap-10 lg:gap-16">
