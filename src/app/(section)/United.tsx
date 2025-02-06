@@ -6,7 +6,7 @@ import React from "react";
 
 const United: React.FC = () => {
   return (
-    <section className="relative h-full w-full bg-[#000] px-2 py-12 lg:h-[150vh] lg:px-4 lg:py-24">
+    <section className="relative h-full w-full bg-[#000] px-2 lg:h-[150vh] lg:px-4">
       <div className="absolute bottom-[10%] left-[140px] hidden lg:block">
         <Image
           src={"/images/home/united/logo.png"}
