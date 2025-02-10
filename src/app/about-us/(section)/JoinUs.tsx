@@ -13,12 +13,12 @@ const JoinUs = ({}) => {
     >
       <div className="flex h-full w-full flex-col-reverse items-center justify-center gap-4 md:flex-row">
         <div className="flex h-full w-full flex-col items-center justify-center gap-[2.5rem] p-6">
-          <h1 className="font-oswald max-w-[500px] text-center text-5xl leading-[60px] text-[#fff]">
+          <h1 className="font-oswald max-w-[500px] text-center text-5xl leading-[60px] text-[#FF8A00]">
             Join Us for an
             <br />
             Unforgettable Meal
           </h1>
-          <p className="max-w-[450px] text-center font-[600] leading-[160%] text-[#f7f5f1]">
+          <p className="max-w-[450px] text-center font-[600] leading-[160%] text-[#FF8A00]">
             Ready to experience the rich and authentic flavors of the
             Mediterranean? Whether you`re enjoying an intimate dinner or
             celebrating with family and friends, La Turka invites you to indulge
@@ -28,7 +28,7 @@ const JoinUs = ({}) => {
           </p>
           <Button
             variant="outline"
-            className="group w-fit items-center gap-[1.19rem] rounded-none border-[#866c53] bg-[#866c53] px-8 py-8 font-semibold uppercase text-white hover:bg-primary"
+            className="group w-fit items-center gap-[1.19rem] rounded-none border-[#DB0C10] bg-[#DB0C10] px-8 py-8 font-semibold uppercase text-white hover:bg-[#FF8A00]"
           >
             <Link
               className="flex flex-row items-center justify-center gap-4"

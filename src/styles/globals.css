@@ -74,25 +74,25 @@
   --foreground: 39, 16%, 58%;
   --card: 189, 23%, 6%;
   --card-foreground: 2.31, 50.49%, 40.39%;
-  --popover: 189, 23%, 6%;
+  --popover: 0, 0%, 0%;
   --popover-foreground: 2.31, 50.49%, 40.39%;
-  --primary: 37, 62%, 39%;
-  --primary-foreground: 189, 23%, 6%;
+  --primary: 32.47, 100%, 50%;
+  --primary-foreground: 0, 0%, 100%;
   --secondary: 344 45% 45%;
   --secondary-foreground: 189, 23%, 6%;
-  --muted: 51 100% 20%;
+  --muted: 32.47, 100%, 50%;
   --muted-foreground: 344 73% 70%;
-  --accent: 344 44% 62%;
+  --accent: 32.47, 100%, 50%;
   --accent-foreground: 189, 23%, 6%;
   --destructive: 0 85% 60%;
   --destructive-foreground: 2.31, 50.49%, 40.39%;
-  --border: 51 100% 20%;
+  --border: 32.47, 100%, 50%;
   --input: 0 0% 100%;
-  --ring: 344 44% 40%;
+  --ring: 32.47, 100%, 50%;
 
   /* menu Checkout Start */
 
-  --menubackground: 188.28, 69.05%, 16.47%;
+  --menubackground: 0, 0%, 0%;
   --menuforeground: 0, 0%, 0%;
   --menuprimary: 42, 50%, 60%;
   --menusecondary: 35, 84%, 90%;

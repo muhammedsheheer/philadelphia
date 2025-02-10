@@ -33,7 +33,7 @@ const Popular: React.FC = () => {
         </div>
         <div className="relative grid w-full gap-6 md:grid-cols-3 lg:grid-cols-4 lg:gap-4">
           <div className="absolute inset-0 z-10 hidden items-center justify-center lg:flex">
-            <Link href={"/"}>
+            <Link href={"/menu"}>
               <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
                 <Circle className="w-2 fill-white" />
                 Order Now
@@ -133,7 +133,7 @@ const Popular: React.FC = () => {
             />
           </div>
           <div className="flex justify-center md:hidden">
-            <Link href={"/"}>
+            <Link href={"/menu"}>
               <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
                 <Circle className="w-2 fill-white" />
                 Order Now

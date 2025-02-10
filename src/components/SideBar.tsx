@@ -21,6 +21,12 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
         <SheetHeader>
           <SheetDescription className="flex w-full flex-col items-start justify-start gap-7 pt-14">
             <Link
+              href="/"
+              className="flex w-full justify-start p-0 font-playfair text-2xl font-normal text-[#000]"
+            >
+              Home
+            </Link>
+            <Link
               href="/menu"
               className="flex w-full justify-start p-0 font-playfair text-2xl font-normal text-[#000]"
             >
@@ -33,18 +39,6 @@ const Sidebar: FC<SidebarProps> = ({ children }) => {
               About
             </Link>
 
-            <Link
-              href="/"
-              className="flex w-full justify-start p-0 font-playfair text-2xl font-normal text-[#000]"
-            >
-              REORDER
-            </Link>
-            <Link
-              href="/"
-              className="flex w-full justify-start p-0 font-playfair text-2xl font-normal text-[#000]"
-            >
-              Reviews
-            </Link>
             <Link
               href="/contact"
               className="flex w-full justify-start p-0 font-playfair text-2xl font-normal text-[#000]"

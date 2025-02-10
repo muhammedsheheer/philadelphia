@@ -68,17 +68,17 @@ const Contact = ({}) => {
 
   return (
     <section
-      className="flex h-full w-full flex-col items-center justify-center bg-[#0D3F47]"
+      className="flex h-full w-full flex-col items-center justify-center bg-[#000]"
       id="contact"
     >
       <div className="flex h-full w-full max-w-[1300px] flex-col gap-[2.5rem] px-0 py-12 pl-0 md:px-2 md:py-24">
         <div className="flex w-full flex-col lg:flex-row">
-          <div className="flex w-full flex-col gap-8 bg-[#0D3F47] px-6 lg:w-1/2 lg:px-28">
+          <div className="flex w-full flex-col gap-8 bg-[#000] px-6 lg:w-1/2 lg:px-28">
             <div className="flex flex-col gap-8">
-              <p className="font-bai text-lg leading-[4px] text-[#fff]">
+              <p className="font-bai text-lg leading-[4px] text-[#FF8A00]">
                 Contact Us
               </p>
-              <h1 className="font-forum text-4xl font-medium uppercase leading-[50px] tracking-[5px] text-[#fff] lg:text-5xl">
+              <h1 className="font-forum text-4xl font-medium uppercase leading-[50px] tracking-[5px] text-[#FF8A00] lg:text-5xl">
                 Get in
                 <br /> Touch
               </h1>
@@ -87,7 +87,7 @@ const Contact = ({}) => {
               <div className="flex gap-6">
                 <div>
                   <div className="h-fit w-fit rounded-full p-2">
-                    <MapPin className="text-[#fff]" />
+                    <MapPin className="text-[#FF8A00]" />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
@@ -95,7 +95,7 @@ const Contact = ({}) => {
                     href={"https://maps.app.goo.gl/5VmhzQqXMhQ6yi5Y6"}
                     target="_blank"
                   >
-                    <p className="text-[#fff]">
+                    <p className="text-[#FF8A00]">
                       469 Manchester Rd, Lostock Gralam, <br /> Northwich CW9
                       7QB, United Kingdom
                     </p>
@@ -105,8 +105,8 @@ const Contact = ({}) => {
                     target="_blank"
                   >
                     <p className="flex items-center gap-2 text-sm">
-                      <span className="text-[#fff]">Get Direction</span>
-                      <ArrowRight className="text-[#fff]" />
+                      <span className="text-[#FF8A00]">Get Direction</span>
+                      <ArrowRight className="text-[#FF8A00]" />
                     </p>
                   </Link>
                 </div>
@@ -124,13 +124,13 @@ const Contact = ({}) => {
               <div className="flex items-center gap-6">
                 <div>
                   <div className="h-fit w-fit rounded-full p-2">
-                    <Mail className="text-[#fff]" />
+                    <Mail className="text-[#FF8A00]" />
                   </div>
                 </div>
                 <div className="flex flex-col gap-4">
                   <Link
                     href="mailto:laturkanorthwich.uk"
-                    className="text-[#fff]"
+                    className="text-[#FF8A00]"
                   >
                     laturkanorthwich.uk
                   </Link>
@@ -141,19 +141,19 @@ const Contact = ({}) => {
                   href="https://www.instagram.com/laturka_northwich/"
                   target="_blank"
                 >
-                  <Icons.instagram className="text-[#fff]" />
+                  <Icons.instagram className="text-[#FF8A00]" />
                 </Link>
                 <Link
                   href="https://www.tripadvisor.com/Restaurant_Review-g2286944-d26839122-Reviews-La_Turka_Norhwich-Lostock_Gralam_Cheshire_England.html"
                   target="_blank"
                 >
-                  <Icons.unknown className="text-[#fff]" />
+                  <Icons.unknown className="text-[#FF8A00]" />
                 </Link>
                 <Link
                   href="https://maps.app.goo.gl/5VmhzQqXMhQ6yi5Y6"
                   target="_blank"
                 >
-                  <Icons.google className="text-[#fff]" />
+                  <Icons.google className="text-[#FF8A00]" />
                 </Link>
                 {/* <Link href='https://www.facebook.com/Istanbulwoolton/'>
                   <Icons.facebook />
@@ -161,7 +161,7 @@ const Contact = ({}) => {
               </div>
             </div>
           </div>
-          <div className="flex w-full flex-col bg-[#0D3F47] lg:w-1/2 lg:items-center lg:justify-center">
+          <div className="flex w-full flex-col bg-[#000] lg:w-1/2 lg:items-center lg:justify-center">
             <div className="w-full px-3 lg:w-4/5 lg:px-0">
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(onSubmit)} className="h-full">
@@ -176,7 +176,7 @@ const Contact = ({}) => {
                               <Input
                                 placeholder="First Name"
                                 {...field}
-                                className="h-12 rounded-xl bg-white"
+                                className="h-12 rounded-xl bg-white placeholder-[#FF8A00]"
                               />
                             </FormControl>
                             <FormMessage />
@@ -220,7 +220,7 @@ const Contact = ({}) => {
                         name="message"
                         render={({ field }) => (
                           <FormItem className="w-full">
-                            <FormLabel className="text-[#fff]">
+                            <FormLabel className="text-[#FF8A00]">
                               Reason for contacting (optional)
                             </FormLabel>
                             <FormControl>
@@ -238,7 +238,7 @@ const Contact = ({}) => {
                   </div>
                   <div className="flex w-full flex-col pt-7 lg:flex-row">
                     <Button
-                      className="font-bai w-full rounded-2xl py-6 hover:bg-secondary"
+                      className="font-bai w-full rounded-2xl bg-[#DB0C10] py-6 text-[#fff] hover:bg-[#FF8A00]"
                       disabled={bookTableMutation.isPending}
                     >
                       Contact US

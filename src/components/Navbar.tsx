@@ -26,20 +26,20 @@ const Navbar: React.FC<NavbarProps> = ({ position = "static" }) => {
             height={61}
             alt="logo"
             className={pathname !== "/" ? "w-24 text-white" : "w-32 lg:w-40"}
-            style={
-              pathname !== "/" ? { filter: "brightness(0) invert(1)" } : {}
-            }
+            // style={
+            //   pathname !== "/" ? { filter: "brightness(0) invert(1)" } : {}
+            // }
           />
         </Link>
 
         <div className="flex flex-row items-center gap-2">
           <div className="hidden flex-row gap-2 lg:flex">
-            <Link href={"/"}>
+            <Link href={"/menu"}>
               <Button className="flex flex-row items-center justify-center gap-2 rounded-full bg-[#fff] px-6 py-6 text-center font-bebas text-base font-[400] uppercase text-[#040404]">
                 <Circle className="w-2 fill-black" /> Order Now
               </Button>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/menu"}>
               <Button className="rounded-full bg-[#fff] px-3 py-6">
                 <Image
                   src={"/images/home/hero/bag.svg"}

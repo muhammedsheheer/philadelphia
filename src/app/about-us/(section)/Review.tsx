@@ -63,12 +63,13 @@ const Reviews = ({}) => {
     // };
   }, []);
   return (
-    <section className="relative flex h-full w-full bg-[#114B4F] px-4 md:px-[50px]">
+    <section className="relative flex h-full w-full bg-[#000]">
       <div className="flex h-full w-full flex-col items-start justify-center gap-4 py-12 md:py-24">
         <div className="flex h-full w-full flex-col items-start justify-center gap-2 lg:gap-4">
-          <div className="flex w-full flex-col items-center justify-center gap-4">
-            <h1 className="review-head w-full text-center font-playfair text-3xl font-[400] uppercase text-[#fff] lg:px-8 lg:text-start lg:text-5xl">
-              Hear Our Guests
+          <div className="flex w-full flex-col items-center justify-center gap-4 px-4 md:px-[50px] lg:px-[100px]">
+            <h1 className="review-head w-full text-center font-bebas text-6xl font-[400] uppercase text-[#FF8A00] lg:px-8 lg:text-start lg:text-8xl lg:leading-[80px]">
+              What Our <br />
+              Guests Say
             </h1>
           </div>
         </div>
@@ -79,34 +80,27 @@ const Reviews = ({}) => {
                 {reviews.map((review, index) => (
                   <CarouselItem
                     key={index}
-                    className="flex w-full basis-full flex-col gap-6 rounded-2xl border border-[#2c2a28] bg-[#fff] px-6 py-8 md:basis-1/3 md:rounded-none"
+                    className="flex w-full basis-full flex-col gap-6 rounded-2xl px-6 py-8 md:basis-1/3"
+                    style={{
+                      backgroundImage: "url('/images/home/follow/frame.png')",
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                    }}
                   >
                     <div className="flex w-full items-center gap-2">
-                      <Image
-                        src={
-                          review.profile_photo_url ||
-                          "/images/home/reviews/pictures/anna-mathew.svg"
-                        }
-                        width={64}
-                        height={64}
-                        alt={review.author_name}
-                      />
                       <div className="flex flex-col gap-2">
-                        <p className="font-manrope text-sm font-[500] tracking-[0.54px] text-[#866C53]">
+                        <p className="font-roboto text-sm font-[500] tracking-[0.54px] text-[#FF8A00]">
                           {review.author_name}
                         </p>
-                        <span className="font-manrope text-sm font-[400] tracking-[0.48px] text-[#9C9995]">
-                          {review.relative_time_description}
-                        </span>
                       </div>
                     </div>
                     <div className="flex w-full">
                       {Array.from({ length: review.rating }).map((_, index) => (
-                        <Icons.star key={index} className="text-[#bc995d]" />
+                        <Icons.star key={index} className="text-[#FF8A00]" />
                       ))}
                     </div>
                     <div className="">
-                      <p className="line-clamp-5 font-inter font-[300] tracking-[0.48px] text-[#866C53]">
+                      <p className="line-clamp-5 font-roboto font-[300] tracking-[0.48px] text-[#FF8A00]">
                         {review.text}
                       </p>
                     </div>
@@ -114,8 +108,8 @@ const Reviews = ({}) => {
                 ))}
               </CarouselContent>
               <div className="group absolute -bottom-12 left-1/2 flex w-fit -translate-x-1/2 transform items-center gap-2 pb-6 transition-transform duration-300 ease-in-out lg:pb-0">
-                <CarouselPrevious className="border-[#bc995d] text-[#bc995d] transition-transform duration-300 ease-in-out group-hover:-translate-x-2" />
-                <CarouselNext className="border-[#bc995d] text-[#bc995d] transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
+                <CarouselPrevious className="border-[#FF8A00] text-[#fff] transition-transform duration-300 ease-in-out group-hover:-translate-x-2" />
+                <CarouselNext className="border-[#FF8A00] text-[#fff] transition-transform duration-300 ease-in-out group-hover:translate-x-2" />
               </div>
             </Carousel>
           )}

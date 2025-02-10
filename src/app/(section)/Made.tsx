@@ -41,7 +41,7 @@ const Made: React.FC = () => {
               the crunch, savor the flavor!
             </p>
             <div>
-              <Link href={"/"}>
+              <Link href={"/menu"}>
                 <Button className="flex flex-row gap-2 rounded-full bg-[#FF8A00] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
                   <Circle className="w-2 fill-white" />
                   Order Now

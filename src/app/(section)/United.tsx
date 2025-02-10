@@ -34,7 +34,7 @@ const United: React.FC = () => {
           service that feels like home, we’re excited to serve you. Philadelphia
           Fried Chicken – Where Flavor Meets Tradition.
         </p>
-        <Link href={"/"}>
+        <Link href={"/menu"}>
           <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
             <Circle className="w-2 fill-white" />
             Order Now
@@ -58,7 +58,7 @@ const United: React.FC = () => {
                 we’re excited to serve you. Philadelphia Fried Chicken – Where
                 Flavor Meets Tradition.
               </p>
-              <Link href={"/"}>
+              <Link href={"/menu"}>
                 <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
                   <Circle className="w-2 fill-white" />
                   Order Now

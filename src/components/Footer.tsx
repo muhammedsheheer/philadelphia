@@ -68,22 +68,22 @@ const Footer = ({}) => {
                 Home
               </Button>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/about-us"}>
               <Button className="rounded-full bg-[#DB0C10] px-5 py-4 text-center font-bebas text-lg font-[400] uppercase text-[#fff] lg:text-xl">
                 About us
               </Button>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/table-booking"}>
               <Button className="rounded-full bg-[#DB0C10] px-5 py-4 text-center font-bebas text-lg font-[400] uppercase text-[#fff] lg:text-xl">
                 Booking
               </Button>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/contact"}>
               <Button className="rounded-full bg-[#DB0C10] px-5 py-4 text-center font-bebas text-lg font-[400] uppercase text-[#fff] lg:text-xl">
                 Contact us
               </Button>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/menu"}>
               <Button className="rounded-full bg-[#DB0C10] px-5 py-4 text-center font-bebas text-lg font-[400] uppercase text-[#fff] lg:text-xl">
                 Menu
               </Button>

@@ -67,14 +67,14 @@ const Book: React.FC = () => {
             className="h-full w-full"
           />
         </div>
-        <div className="flex flex-col gap-4 lg:gap-6">
+        <div className="relative z-50 flex flex-col gap-4 lg:gap-6">
           <p className="w-full max-w-[400px] from-neutral-400 font-roboto text-sm uppercase leading-[130%] text-[#FF8A00] lg:text-base">
             Craving our crispy, golden perfection? Skip the wait and secure your
             table today! Whether it’s a family feast, a casual hangout, or a
             special celebration, we’ve got the perfect spot for you.
           </p>
           <div>
-            <Link href={"#"}>
+            <Link href={"/table-booking"}>
               <Button className="flex flex-row gap-2 rounded-full bg-[#DB0C10] px-7 py-7 font-roboto text-sm font-[400] uppercase text-[#fff]">
                 <Circle className="w-2 fill-white" />
                 Book Table
