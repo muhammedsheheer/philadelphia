@@ -65,13 +65,14 @@ export default function TableBookingForm() {
 
 
   return (
-    <div className="w-full space-y-6 px-4">
+    <div className="w-full flex justify-center items-center space-y-6 px-4">
       {page === 0 ?
         <TimeForm mainform={form} setpage={setPage} />
         :
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(onSubmit)}
+            className="w-full flex justify-center"
           >
             <CustomerDetails form={form} bookTableMutation={bookTableMutation} setpage={setPage} />
           </form>

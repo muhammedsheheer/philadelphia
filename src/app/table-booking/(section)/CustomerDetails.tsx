@@ -27,7 +27,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
   setpage,
 }) => {
   return (
-    <div className="flex w-full flex-col items-end gap-5">
+    <div className="flex w-full max-w-[1300px] flex-col items-end gap-5">
       {/* <div className='w-full flex items-start justify-start'>
                 <div onClick={() => setpage(0)} className='w-fit flex gap-2 justify-center items-center'>
                     <ArrowLeft />
@@ -35,7 +35,7 @@ const CustomerDetails: FC<CustomerDetailsProps> = ({
                 </div>
             </div> */}
       <div className="flex w-full flex-col gap-3 bg-primary/30 px-12 py-6">
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+        <div className="w-full grid grid-cols-1 gap-6 md:grid-cols-3">
           <div className="flex w-full flex-col gap-2">
             <p className="text-semibold text-[#FF8A00]">Date & Time</p>
             <p className="font-light text-[#FF8A00]">
